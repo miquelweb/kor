@@ -1,0 +1,163 @@
+body {
+	background-color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+#contingut {
+	float: left;
+	height: 480px;
+	width: 320px;
+	position: relative;
+	background-image: url(../img/fons.png);
+	background-repeat: no-repeat;
+}
+#logogran {
+	float: left;
+	margin-top: 25px;
+	margin-left: 60px;
+	position: relative;
+}
+#formlogin {
+	float: left;
+	margin-top: 238px;
+	margin-left: 108px;
+	position: relative;
+}
+#formlogin label {
+	font-size: 12px;
+	display: block;
+	margin-bottom: 3px;
+	margin-left: 20px;
+	position: relative;
+	color: #FFF;
+	font-weight: bold;
+}
+#formlogin input {
+	display: block;
+	height: 20px;
+	width: 182px;
+	margin-bottom: 10px;
+	position: relative;
+	margin-left: 10px;
+}
+#formlogin #missatgeregistre {
+	font-size: 13px;
+	width: 240px;
+	font-weight: bold;
+	margin-top: 3px;
+	margin-left: 13px;
+}
+#menu {
+	float: left;
+	margin-top: 18px;
+	position: relative;
+	margin-left: 23px;
+}
+#barrasuperior {
+	background-image: url(../img/fonsbarra.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 45px;
+	width: 320px;
+	position: relative;
+}#barrasuperior img {
+	display: block;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+#barrasuperior h3 {
+	font-size: 24px;
+	color: #FFF;
+	text-align: center;
+	width: 225px;
+	float: left;
+	margin-top: 10px;
+}
+#mapa {
+	float: left;
+	height: 435px;
+	width: 320px;
+	position: relative;
+}
+#llegendamapa {
+	color: #000;
+}
+#barraflotantmapa {
+	float: left;
+	height: 58px;
+	width: 230px;
+	margin-top: -58px;
+	position: relative;
+	margin-left: 60px;
+}
+#quadrelector {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	position: relative;
+}
+#quadreresultat {
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	position: relative;
+}
+#botonsrecicla {
+	float: left;
+	margin-left: 20px;
+	position: relative;
+}
+#botonsrecicla img {
+	margin-top: 10px;
+}
+#botonsrecicla h3 {
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 15px;
+}
+#cercarproducte {
+	height: 25px;
+	width: 280px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#llistaproducte {
+	height: 320px;
+	width: 265px;
+	overflow-y: scroll;
+	overflow-x: auto;
+	background-color: #FFF;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.15);
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+}
+#llistaproducte p {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	margin-top: 9px;
+	padding-bottom: 9px;
+	font-size: 16px;
+}
+#infoproducte {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: relative;
+}
+#infoproducte img {
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: relative;
+}
