@@ -30,17 +30,7 @@ require_once('Connections/kor.php');
 <div id="barrasuperior"> <a  href="#" onclick="document.forms['principal'].submit();return false;"><img src="img/icon_enrera.png" width="42" height="31" /></a>
   <h3>Recicla!</h3>
   </div>
-  <div id="infoproducte">
-  <img src="img/caixaimatgeproducte.png" width="129" height="308" />
-  <img src="img/caixanomproducte.png" width="141" height="64" />
-  <img src="img/caixadescripcioproducte.png" width="141" height="177" />
-  
-<form name="bossa" action="bossa.php"></form>
-  <a href="#" onclick="document.forms['bossa'].submit();return false;"><img src="img/boto_recicla.png" width="141" height="47" /></a>
-  <img src="img/caixaiconesproducte.png" width="279" height="69" />
-  </div>
-  
-</div>
+<img src="img/estadistiques.png" width="291" height="395" style="margin-top:10px;margin-left:10px;" /></div>
 
 </body>
 </html>

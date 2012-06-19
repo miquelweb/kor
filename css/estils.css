@@ -161,3 +161,15 @@ a {
 	margin-left: 10px;
 	position: relative;
 }
+#bossa {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: relative;
+}
+#bossa img {
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 0px;
+}

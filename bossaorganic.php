@@ -27,19 +27,19 @@ require_once('Connections/kor.php');
 <div id="contingut">
 
 <form name="principal" action="principal.php"></form>
+<form name="bossa" action="bossa.php"></form>
+<form name="bossapaper" action="bossapaper.php"></form>
+<form name="bossaplastic" action="bossaplastic.php"></form>
+<form name="bossaorganic" action="bossaorganic.php"></form>
+<form name="estadistiques" action="estadistiques.php"></form>
 <div id="barrasuperior"> <a  href="#" onclick="document.forms['principal'].submit();return false;"><img src="img/icon_enrera.png" width="42" height="31" /></a>
   <h3>Recicla!</h3>
   </div>
-  <div id="infoproducte">
-  <img src="img/caixaimatgeproducte.png" width="129" height="308" />
-  <img src="img/caixanomproducte.png" width="141" height="64" />
-  <img src="img/caixadescripcioproducte.png" width="141" height="177" />
-  
-<form name="bossa" action="bossa.php"></form>
-  <a href="#" onclick="document.forms['bossa'].submit();return false;"><img src="img/boto_recicla.png" width="141" height="47" /></a>
-  <img src="img/caixaiconesproducte.png" width="279" height="69" />
+  <div id="bossa">
+  <img src="img/bossa_organic.png" width="242" height="336" />
+  <a href="#"  onclick="document.forms['bossa'].submit();return false;"><img src="img/boto_bossa_vidre.png" width="36" height="36" style="margin-top:125px;" /></a>
+  <a href="#" onclick="document.forms['bossapaper'].submit();return false;"><img src="img/boto_bossa_paper.png" width="36" height="36" /></a><a href="#" onclick="document.forms['bossaplastic'].submit();return false;"><img src="img/boto_bossa_plastic.png" width="36" height="36" /></a><a href="#" onclick="document.forms['bossaorganic'].submit();return false;"><img src="img/boto_bossa_organic_o.png" width="36" height="36" /></a><a href="#" onclick="document.forms['estadistiques'].submit();return false;"><img src="img/boto_buida_bossa.png" width="280" height="47" /></a>
   </div>
-  
 </div>
 
 </body>

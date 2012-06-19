@@ -27,11 +27,12 @@ mysql_select_db($database_kor, $kor);
 <div id="menu">
 <form name="mapa" action="mapa.php"></form>
 <form name="recicla" action="recicla.php"></form>
+<form name="estadistiques" action="estadistiques.php"></form>
 <a href="#" onclick="document.forms['recicla'].submit();return false;"><img src="img/menu_recicla.png" width="134" height="141" /></a>
 <a href="#"><img src="img/menu_bossa.png" width="139" height="141" /></a>
 <a href="#"><img src="img/menu_historial.png" width="133" height="147" /></a>
 <a href="#" onclick="document.forms['mapa'].submit();return false;"><img src="img/menu_mapa.png" width="140" height="147" /></a>
-<a href="#"><img src="img/menu_medalles.png" width="133" height="148" /></a>
+<a href="#" onclick="document.forms['estadistiques'].submit();return false;"><img src="img/menu_medalles.png" width="133" height="148" /></a>
 <a href="#"><img src="img/menu_perfil.png" width="140" height="148" /></a>
 </div>
 </body>
